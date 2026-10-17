@@ -1,0 +1,154 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - complementary [ref=e5]:
+    - link "Fieldnote home" [ref=e6] [cursor=pointer]:
+      - /url: "#"
+      - text: fieldnote
+      - generic [ref=e9]: .
+    - generic [ref=e10]:
+      - generic [ref=e11]: P
+      - generic [ref=e12]:
+        - text: Personal workspace
+        - generic [ref=e13]: Your space to listen
+    - button "New interview ↗" [ref=e18] [cursor=pointer]:
+      - text: New interview
+      - generic [ref=e20]: ↗
+    - generic [ref=e21]: WORKSPACE
+    - navigation "Workspace" [ref=e22]:
+      - button "All interviews 0" [ref=e23] [cursor=pointer]:
+        - text: All interviews
+        - generic [ref=e26]: "0"
+      - button "Starred 0" [ref=e27] [cursor=pointer]:
+        - text: Starred
+        - generic [ref=e30]: "0"
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Yours. And only yours." [level=3] [ref=e37]
+        - paragraph [ref=e38]: Interviews stay in this browser.Your next big insight is safe here.
+        - button "About local storage" [ref=e39] [cursor=pointer]
+      - button "Settings" [ref=e42] [cursor=pointer]
+      - button "How it works" [ref=e46] [cursor=pointer]
+      - generic [ref=e52]:
+        - generic [ref=e53]: You
+        - generic [ref=e54]:
+          - text: Personal workspace
+          - generic [ref=e55]: Local-first, always.
+  - generic [ref=e57]:
+    - banner [ref=e58]:
+      - generic [ref=e59]:
+        - text: Workspace
+        - generic [ref=e60]: /
+        - strong [ref=e61]: All interviews
+      - button "Connect Deepgram" [ref=e62] [cursor=pointer]
+    - main [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: LESS NOTE-TAKING. MORE LISTENING.
+          - heading "Good conversations. Great insights." [level=1] [ref=e71]: Good conversations.Great insights.
+          - paragraph [ref=e72]: Be present in the moment. We’ll remember the details.
+        - generic [ref=e73]:
+          - generic [ref=e74]: ⤵
+          - generic [ref=e75]: A little less typing,a lot more connecting.
+      - generic [ref=e77]:
+        - region [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Your next conversation starts here" [level=2] [ref=e84]
+            - button "Recording settings" [ref=e85] [cursor=pointer]
+          - generic [ref=e89]:
+            - generic [ref=e90]: Interview name
+            - textbox "Interview name" [ref=e91]:
+              - /placeholder: e.g. Discovery chat with Alex
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: Project optional
+                - textbox "Project optional" [ref=e98]:
+                  - /placeholder: Add a project
+              - generic [ref=e99]:
+                - generic [ref=e100]: Language
+                - combobox "Language" [ref=e101]:
+                  - option "English" [selected]
+                  - option "Spanish"
+                  - option "French"
+                  - option "German"
+                  - option "Portuguese"
+                  - option "Italian"
+                  - option "Dutch"
+                  - option "Multilingual"
+          - generic [ref=e183]:
+            - text: 00:00
+            - generic [ref=e184]: READY WHEN YOU ARE
+          - button "Start recording" [ref=e186] [cursor=pointer]
+          - generic [ref=e192] [cursor=pointer]:
+            - checkbox "Everyone has agreed to being recorded." [ref=e193]
+            - text: Everyone has agreed to being recorded.
+          - generic [ref=e194]:
+            - generic [ref=e195]: Nova-3 transcription
+            - generic [ref=e197]: Speaker detection on
+            - generic [ref=e203]: Saved locally
+        - complementary [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]: MADE FOR MEANINGFUL CONVERSATIONS
+            - generic [aria-hidden] [ref=e213]:
+              - generic [ref=e217]: ✦
+              - generic [ref=e218]: +
+            - heading "Stay in the conversation." [level=2] [ref=e228]: Stay in theconversation.
+            - paragraph [ref=e229]: Not in your notes.
+          - generic [ref=e230]:
+            - generic [ref=e239]:
+              - text: Every word, captured.
+              - paragraph [ref=e240]: Accurate transcripts, as you speak.
+            - generic [ref=e248]:
+              - text: Every voice, recognized.
+              - paragraph [ref=e249]: Know who said what, automatically.
+            - generic [ref=e255]:
+              - text: Your conversations stay yours.
+              - paragraph [ref=e256]: Stored on your device. Never our servers.
+          - link "POWERED BY ◩ deepgram" [ref=e257] [cursor=pointer]:
+            - /url: https://developers.deepgram.com/docs/live-streaming-audio
+            - text: POWERED BY
+            - strong [ref=e258]:
+              - generic [ref=e259]: ◩
+              - text: deepgram
+      - region [ref=e262]:
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - heading "Your interviews 0" [level=2] [ref=e265]:
+              - text: Your interviews
+              - generic [ref=e266]: "0"
+            - paragraph [ref=e267]: A home for your conversations. And everything you learn from them.
+          - generic [ref=e268]:
+            - strong [ref=e272]: 0 min
+            - text: recorded
+            - strong [ref=e277]: "0"
+            - text: transcripts
+        - generic [ref=e278]:
+          - generic "Filter interviews" [ref=e279]:
+            - button "All interviews" [ref=e280] [cursor=pointer]
+            - button "Starred" [ref=e281] [cursor=pointer]
+          - generic [ref=e284]:
+            - textbox "Search interviews" [ref=e289]:
+              - /placeholder: Search interviews…
+            - combobox "Sort interviews" [ref=e290]:
+              - option "Newest first" [selected]
+              - option "Name A–Z"
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e293]: INTERVIEW NAME
+            - generic [ref=e294]: DATE
+            - generic [ref=e295]: DURATION
+            - generic [ref=e296]: STATUS
+          - generic [ref=e297]:
+            - generic [ref=e298]: +
+            - heading "Your first great conversation is waiting." [level=3] [ref=e310]
+            - paragraph [ref=e311]: Record an interview and turn the conversation into something you can come back to.
+            - button "Start a conversation" [ref=e312] [cursor=pointer]
+        - generic [ref=e315]:
+          - generic [ref=e316]: Stored in this browser. Export a copy to keep it forever.
+          - generic [ref=e321]:
+            - text: Built for better listening
+            - generic [ref=e322]: ✧
+    - contentinfo [ref=e323]:
+      - generic [ref=e324]: fieldnote.
+      - generic [ref=e326]: A little more human. A lot more present.
+      - generic [ref=e327]: YOUR WORDS, WELL KEPT.

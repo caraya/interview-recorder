@@ -1,0 +1,7 @@
+PostgreSQL browser verification
+2026-10-17 01:37:33.978+00
+
+[00:00] Speaker 1: A test transcript stored through Drizzle.
+
+Notes
+Notes persisted through PostgreSQL.
